@@ -7,7 +7,7 @@ function fib(n) {
     }
     return fib(n - 1) + fib(n - 2);
 }
-const length = 40;
+const length = 50;
 for (let i = 0; i < length; i++) {
     console.log(fib(i));
 }
